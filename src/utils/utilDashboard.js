@@ -348,7 +348,7 @@ export const buildItemData = (data) => {
       const banos = `${data.banos} ${(data.banos <= 1) ? i18n.t('banio') : i18n.t('banios')}`;
 
       //Concatenar el texto
-      const texto = `${dormitorios}${living}${comedor}${comedor_diario}${banos}.`;
+      let texto = `${dormitorios}${living}${comedor}${comedor_diario}${banos}.`;
 
       //Ejemplo: 2 dormitorios, living, comedor, 1 baño.
       let item = {

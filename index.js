@@ -8,6 +8,7 @@ import App from './App';
 
 //Ignorar el warning de isMounted
 YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated'])
+YellowBox.ignoreWarnings(['ListView is deprecated']);
 
 // Crear store
 const store = configureStore();
